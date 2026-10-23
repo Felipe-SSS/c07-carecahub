@@ -3,7 +3,7 @@ import { RepositoryService } from './repository.service.js';
 import { RepositoryController } from './repository.controller.js';
 
 @Module({
+  controllers: [RepositoryController],
   providers: [RepositoryService],
-  controllers: [RepositoryController]
 })
 export class RepositoryModule {}

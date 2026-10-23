@@ -11,7 +11,6 @@ import { StudentModule } from './resources/student/student.module.js';
 import { TeacherModule } from './resources/teacher/teacher.module.js';
 import { TicketModule } from './resources/ticket/ticket.module.js';
 import { UserModule } from './resources/user/user.module.js';
-import { GroupController } from './resources/group/group.controller.js';
 
 export const { ObserveModule, ObserveInstrument } = createObserveModule();
 
@@ -33,7 +32,7 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
     TicketModule,
     UserModule,
   ],
-  controllers: [AppController, GroupController],
+  controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule {}

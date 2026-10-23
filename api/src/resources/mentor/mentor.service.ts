@@ -9,7 +9,7 @@ export class MentorService {
   }
 
   findAll() {
-    return `This action returns all mentor`;
+    return `This action returns all mentors where deletedAt is null`;
   }
 
   findOne(id: number) {
@@ -20,7 +20,7 @@ export class MentorService {
     return `This action updates a #${id} mentor`;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} mentor`;
+  delete(id: number) {
+    return `This action soft deletes a #${id} mentor`;
   }
 }

@@ -9,7 +9,7 @@ export class RepositoryService {
   }
 
   findAll() {
-    return `This action returns all repository`;
+    return `This action returns all repositories where deletedAt is null`;
   }
 
   findOne(id: number) {
@@ -20,7 +20,7 @@ export class RepositoryService {
     return `This action updates a #${id} repository`;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} repository`;
+  delete(id: number) {
+    return `This action soft deletes a #${id} repository`;
   }
 }

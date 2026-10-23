@@ -9,7 +9,7 @@ export class GroupService {
   }
 
   findAll() {
-    return `This action returns all group`;
+    return `This action returns all groups where deletedAt is null`;
   }
 
   findOne(id: number) {
@@ -20,7 +20,7 @@ export class GroupService {
     return `This action updates a #${id} group`;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} group`;
+  delete(id: number) {
+    return `This action soft deletes a #${id} group`;
   }
 }

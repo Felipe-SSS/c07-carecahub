@@ -9,7 +9,7 @@ export class TicketService {
   }
 
   findAll() {
-    return `This action returns all ticket`;
+    return `This action returns all tickets where deletedAt is null`;
   }
 
   findOne(id: number) {
@@ -20,7 +20,7 @@ export class TicketService {
     return `This action updates a #${id} ticket`;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} ticket`;
+  delete(id: number) {
+    return `This action soft deletes a #${id} ticket`;
   }
 }

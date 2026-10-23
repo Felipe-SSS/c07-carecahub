@@ -9,7 +9,7 @@ export class TeacherService {
   }
 
   findAll() {
-    return `This action returns all teacher`;
+    return `This action returns all teachers where deletedAt is null`;
   }
 
   findOne(id: number) {
@@ -20,7 +20,7 @@ export class TeacherService {
     return `This action updates a #${id} teacher`;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} teacher`;
+  delete(id: number) {
+    return `This action soft deletes a #${id} teacher`;
   }
 }

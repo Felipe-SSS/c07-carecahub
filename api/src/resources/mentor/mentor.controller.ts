@@ -1,4 +1,12 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+} from '@nestjs/common';
 import { MentorService } from './mentor.service.js';
 import { CreateMentorDto } from './dto/create-mentor.dto.js';
 import { UpdateMentorDto } from './dto/update-mentor.dto.js';
@@ -28,7 +36,7 @@ export class MentorController {
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.mentorService.remove(+id);
+  delete(@Param('id') id: string) {
+    return this.mentorService.delete(+id);
   }
 }

@@ -9,7 +9,7 @@ export class ProjectService {
   }
 
   findAll() {
-    return `This action returns all project`;
+    return `This action returns all projects where deletedAt is null`;
   }
 
   findOne(id: number) {
@@ -20,7 +20,7 @@ export class ProjectService {
     return `This action updates a #${id} project`;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} project`;
+  delete(id: number) {
+    return `This action soft deletes a #${id} project`;
   }
 }

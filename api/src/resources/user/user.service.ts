@@ -9,7 +9,7 @@ export class UserService {
   }
 
   findAll() {
-    return `This action returns all user`;
+    return `This action returns all users where deletedAt is null`;
   }
 
   findOne(id: number) {
@@ -20,7 +20,7 @@ export class UserService {
     return `This action updates a #${id} user`;
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} user`;
+  delete(id: number) {
+    return `This action soft deletes a #${id} user`;
   }
 }

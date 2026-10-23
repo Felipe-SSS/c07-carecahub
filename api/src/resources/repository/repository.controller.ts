@@ -1,4 +1,12 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+} from '@nestjs/common';
 import { RepositoryService } from './repository.service.js';
 import { CreateRepositoryDto } from './dto/create-repository.dto.js';
 import { UpdateRepositoryDto } from './dto/update-repository.dto.js';
@@ -23,12 +31,15 @@ export class RepositoryController {
   }
 
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateRepositoryDto: UpdateRepositoryDto) {
+  update(
+    @Param('id') id: string,
+    @Body() updateRepositoryDto: UpdateRepositoryDto,
+  ) {
     return this.repositoryService.update(+id, updateRepositoryDto);
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.repositoryService.remove(+id);
+  delete(@Param('id') id: string) {
+    return this.repositoryService.delete(+id);
   }
 }

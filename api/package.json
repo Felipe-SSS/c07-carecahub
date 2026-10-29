@@ -4,6 +4,7 @@
   "description": "Nest TypeScript starter repository",
   "private": true,
   "license": "MIT",
+  "packageManager": "yarn@1.22.22",
   "type": "module",
   "scripts": {
     "build": "nest build",

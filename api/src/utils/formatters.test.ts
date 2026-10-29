@@ -1,6 +1,6 @@
 import assert from 'node:assert'
 import { describe, it } from 'vitest'
-import { formatCPF, formatPhone, formatPostalCode, formatRG } from './formatters'
+import { formatCPF, formatPhone, formatPostalCode, formatRG } from './formatters.js'
 
 describe('formatters', () => {
   describe('formatPhone', () => {

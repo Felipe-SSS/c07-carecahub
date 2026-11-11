@@ -5,7 +5,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema carecahub
 -- -----------------------------------------------------
--- DROP SCHEMA IF EXISTS `carecahub` ; -- Uncomment this line if resseting the database is necessary.
+DROP SCHEMA IF EXISTS `carecahub` ; -- Uncomment this line if resseting the database is necessary.
 CREATE SCHEMA IF NOT EXISTS `carecahub` ;
 USE `carecahub` ;
 
@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS `carecahub`.`User` (
   `name` VARCHAR(45) NOT NULL,
   `email` VARCHAR(45) NOT NULL,
   `password` TEXT(200) NOT NULL,
-  `github` VARCHAR(15) NOT NULL,
+  `github` VARCHAR(60) NOT NULL,
   `created_at` DATETIME NOT NULL,
   `updated_at` DATETIME NOT NULL,
   `deleted_at` DATETIME NULL,

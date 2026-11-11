@@ -7,7 +7,7 @@ CREATE PROCEDURE `sp_insert_user`(
   IN p_name VARCHAR(45),
   IN p_email VARCHAR(45),
   IN p_password TEXT,
-  IN p_github VARCHAR(15),
+  IN p_github VARCHAR(60),
   IN p_created_at DATETIME,
   IN p_updated_at DATETIME
 )

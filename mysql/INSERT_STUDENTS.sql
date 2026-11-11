@@ -20,6 +20,6 @@ CALL `sp_insert_student`(4, 20003, 'B');
 CALL `sp_insert_student`(5, 20004, 'B');
 CALL `sp_insert_student`(6, 20005, 'C');
 CALL `sp_insert_student`(16, 20006, 'C');
-CALL `sp_insert_student`(17, 20006, 'A');
+CALL `sp_insert_student`(17, 20007, 'A');
 
 DROP PROCEDURE IF EXISTS `sp_insert_student`;

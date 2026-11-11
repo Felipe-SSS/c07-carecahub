@@ -19,5 +19,9 @@ DELIMITER ;
 CALL `sp_insert_repository`(1, 'https://github.com/c07/carecahub-api', 1, '2026-01-21 09:00:00', '2026-01-21 09:00:00');
 CALL `sp_insert_repository`(2, 'https://github.com/c07/campus-verde', 1, '2026-01-21 09:05:00', '2026-01-21 09:05:00');
 CALL `sp_insert_repository`(3, 'https://github.com/c07/sabor-local-web', 0, '2026-01-21 09:10:00', '2026-01-21 09:10:00');
+CALL `sp_insert_repository`(3, 'https://github.com/c07/sabor-local-api', 0, '2026-01-21 09:10:00', '2026-01-21 09:10:00');
+CALL `sp_insert_repository`(3, 'https://github.com/c07/sabor-local-db', 0, '2026-01-21 09:10:00', '2026-01-21 09:10:00');
+CALL `sp_insert_repository`(4, 'https://github.com/c07/construai', 0, '2026-01-21 09:10:00', '2026-01-21 09:10:00');
+CALL `sp_insert_repository`(5, 'https://github.com/c07/pokeplace', 0, '2026-01-21 09:10:00', '2026-01-21 09:10:00');
 
 DROP PROCEDURE IF EXISTS `sp_insert_repository`;

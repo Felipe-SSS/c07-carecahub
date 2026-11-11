@@ -15,5 +15,8 @@ DELIMITER ;
 
 CALL `sp_insert_teacher`(7, 'Terças, 10h às 12h');
 CALL `sp_insert_teacher`(8, 'Quintas, 15h às 17h');
+CALL `sp_insert_teacher`(9, 'Quintas, 13h às 15h');
+CALL `sp_insert_teacher`(10, 'Segundas, 15h às 17h');
+CALL `sp_insert_teacher`(11, 'Quartas, 15h às 17h');
 
 DROP PROCEDURE IF EXISTS `sp_insert_teacher`;

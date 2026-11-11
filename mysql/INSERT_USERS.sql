@@ -25,5 +25,14 @@ CALL `sp_insert_user`('Diego Rocha', 'diego.rocha@example.com', 'senha_demo_alun
 CALL `sp_insert_user`('Elisa Nunes', 'elisa.nunes@example.com', 'senha_demo_aluna', 'elisa-nunes', '2026-01-10 08:25:00', '2026-01-10 08:25:00');
 CALL `sp_insert_user`('Felipe Ramos', 'felipe.ramos@example.com', 'senha_demo_prof', 'felipe-ramos', '2026-01-10 08:30:00', '2026-01-10 08:30:00');
 CALL `sp_insert_user`('Gabriela Alves', 'gabriela.alves@example.com', 'senha_demo_prof', 'gabi-alves', '2026-01-10 08:35:00', '2026-01-10 08:35:00');
+CALL `sp_insert_user`('Chris Lima', 'chris.lima@example.com', 'senha_demo_prof', 'chris-lima', '2026-01-10 08:30:00', '2026-01-10 08:30:00');
+CALL `sp_insert_user`('Marcelo Cysneiros', 'marcelo.cysneiros@example.com', 'senha_demo_prof', 'marcelo-cysneiros', '2026-01-10 08:35:00', '2026-01-10 08:35:00');
+CALL `sp_insert_user`('Daniel Mosca', 'daniel.mosca@example.com', 'senha_demo_prof', 'daniel-mosca', '2026-01-10 08:35:00', '2026-01-10 08:35:00');
+CALL `sp_insert_user`('Henrique Pizzoni', 'henrique.pizzoni@example.com', 'senha_demo_mentor', 'henrique-pizzoni', '2026-01-10 08:00:00', '2026-01-10 08:00:00');
+CALL `sp_insert_user`('Felipe Loschi', 'felipe.loschi@example.com', 'senha_demo_mentor', 'felipe-loschi', '2026-01-10 08:00:00', '2026-01-10 08:00:00');
+CALL `sp_insert_user`('Felipe Soares', 'felipe.soares@example.com', 'senha_demo_mentor', 'felipe-soares', '2026-01-10 08:00:00', '2026-01-10 08:00:00');
+CALL `sp_insert_user`('Daniel Granato', 'daniel.granato@example.com', 'senha_demo_mentor', 'daniel-granato', '2026-01-10 08:00:00', '2026-01-10 08:00:00');
+CALL `sp_insert_user`('Pedro Labastie', 'pedro.labastie@example.com', 'senha_demo_aluno', 'pedro-labastie', '2026-01-10 08:00:00', '2026-01-10 08:00:00');
+CALL `sp_insert_user`('Felipe Chaves', 'felipe.chaves@example.com', 'senha_demo_aluno', 'felipe-chaves', '2026-01-10 08:00:00', '2026-01-10 08:00:00');
 
 DROP PROCEDURE IF EXISTS `sp_insert_user`;

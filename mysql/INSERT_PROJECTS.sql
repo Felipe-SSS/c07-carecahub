@@ -24,5 +24,7 @@ DELIMITER ;
 CALL `sp_insert_project`('CarecaHub', 'Plataforma para acompanhar projetos acadêmicos.', 'npm', JSON_ARRAY('Node.js', 'React', 'MySQL'), 'Multirepo', '2026-01-15 09:00:00', '2026-01-15 09:00:00');
 CALL `sp_insert_project`('Campus Verde', 'Aplicação para registrar iniciativas de sustentabilidade.', 'pnpm', JSON_ARRAY('TypeScript', 'Next.js', 'PostgreSQL'), 'Monorepo', '2026-01-16 09:00:00', '2026-01-16 09:00:00');
 CALL `sp_insert_project`('Sabor Local', 'Catálogo colaborativo de produtores locais.', 'Composer', JSON_ARRAY('PHP', 'Laravel', 'MySQL'), 'Multirepo', '2026-01-17 09:00:00', '2026-01-17 09:00:00');
+CALL `sp_insert_project`('ConstruAI', 'Gerador de planta baixa para construções civis.', 'Composer', JSON_ARRAY('PHP', 'Laravel', 'MySQL'), 'Monorepo', '2026-01-17 09:00:00', '2026-01-17 09:00:00');
+CALL `sp_insert_project`('PokéPlace', 'Sistema de compras e inventário de produtos de pokémon.', 'Composer', JSON_ARRAY('PHP', 'Laravel', 'MySQL'), 'Monorepo', '2026-01-17 09:00:00', '2026-01-17 09:00:00');
 
 DROP PROCEDURE IF EXISTS `sp_insert_project`;

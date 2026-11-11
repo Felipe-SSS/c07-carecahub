@@ -18,5 +18,7 @@ DELIMITER ;
 CALL `sp_insert_group`('C07-CarecaHub', 1, '2026-01-20 10:00:00', '2026-01-20 10:00:00');
 CALL `sp_insert_group`('C07-CampusVerde', 2, '2026-01-20 10:05:00', '2026-01-20 10:05:00');
 CALL `sp_insert_group`('C07-SaborLocal', 3, '2026-01-20 10:10:00', '2026-01-20 10:10:00');
+CALL `sp_insert_group`('C07-ConstruAI', 4, '2026-01-20 10:10:00', '2026-01-20 10:10:00');
+CALL `sp_insert_group`('C07-PokéPlace', 5, '2026-01-20 10:10:00', '2026-01-20 10:10:00');
 
 DROP PROCEDURE IF EXISTS `sp_insert_group`;

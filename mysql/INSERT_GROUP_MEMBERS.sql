@@ -20,5 +20,7 @@ CALL `sp_insert_group_member`(3, 1, 0, '2026-01-20 10:00:00');
 CALL `sp_insert_group_member`(4, 2, 1, '2026-01-20 10:05:00');
 CALL `sp_insert_group_member`(5, 2, 0, '2026-01-20 10:05:00');
 CALL `sp_insert_group_member`(6, 3, 1, '2026-01-20 10:10:00');
+CALL `sp_insert_group_member`(16, 4, 1, '2026-01-20 10:10:00');
+CALL `sp_insert_group_member`(17, 5, 1, '2026-01-20 10:10:00');
 
 DROP PROCEDURE IF EXISTS `sp_insert_group_member`;

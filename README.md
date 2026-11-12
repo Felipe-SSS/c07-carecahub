@@ -1,5 +1,9 @@
 # C07 - CarecaHub
 
+## Banco de Dados
+
+Para criar e popular o banco MySQL do projeto, incluindo a ordem de execução dos scripts e os relacionamentos entre as tabelas, consulte o [guia de banco de dados](mysql/README.md).
+
 ### <font color='#820eee'>**INTEGRANTES DO TRIO**</font>
 
 | Nome                                | Matrícula | Curso | GitHub          |
@@ -25,6 +29,3 @@ Essa ideia é representada por um modelo com usuários e suas especializações 
   <img src=".github/images/model.png" alt="DER" width="100%">
 </p>
 
-## Banco de Dados
-
-Para criar e popular o banco MySQL do projeto, incluindo a ordem de execução dos scripts e os relacionamentos entre as tabelas, consulte o [guia de banco de dados](sql/README.md).

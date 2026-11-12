@@ -1,9 +1,5 @@
 # C07 - CarecaHub
 
-## Banco de Dados
-
-Para criar e popular o banco MySQL do projeto, incluindo a ordem de execução dos scripts e os relacionamentos entre as tabelas, consulte o [guia de banco de dados](mysql/README.md).
-
 ### <font color='#820eee'>**INTEGRANTES DO TRIO**</font>
 
 | Nome                                | Matrícula | Curso | GitHub          |
@@ -13,6 +9,11 @@ Para criar e popular o banco MySQL do projeto, incluindo a ordem de execução d
 | Pedro de Souza Labastie             | 2172      | GEC   | PedroLabastie   |
 
 ---
+
+## Banco de Dados
+
+Para criar e popular o banco MySQL do projeto, incluindo a ordem de execução dos scripts e os relacionamentos entre as tabelas, consulte o [guia de banco de dados](mysql/README.md).
+
 
 ### Qual a ideia por trás do CarecaHub?
 
